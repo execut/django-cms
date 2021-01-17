@@ -7,6 +7,9 @@ Unreleased
 ==================
 
 * Fixed builds on RTD
+* Fix a bug about the slugs of child pages being built incorrectly and
+  returning a 404 error when a user was adding a custom slug
+  for another language of the parent page.
 
 3.8.0 (2020-10-28)
 ==================
