@@ -10,6 +10,8 @@ Unreleased
 * Fix a bug about the slugs of child pages being built incorrectly and
   returning a 404 error when a user was adding a custom slug
   for another language of the parent page.
+* Enforce use of coverage > 4 for python 3.8 support
+* Fixed 66622 bad Title.path in multilingual sites when parent slug is created or modified
 
 3.8.0 (2020-10-28)
 ==================
